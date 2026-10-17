@@ -80,6 +80,7 @@ ul a:hover {
 
 .hero-text h1 span {
   color: #1497c1;
+  text-decoration: none;
 }
 
 .hero-text p {
@@ -203,10 +204,12 @@ font-size: 22px;
 .about-text {
   flex: 1;
   padding-left: 30px;
+  overflow: hidden;
 }
 
 .about-text span {
-  padding: 9px 12px;
+  padding: 4px 12px;
+  text-decoration: none;
   font-size: 20px;
   /* margin-bottom: 20px; */
   color: #045068;
@@ -285,6 +288,7 @@ color: #fff;
 color: #4d789c;
 font-weight: 500;
 background: lightblue;
+text-decoration: none;
 }
 
 .choose-container {
@@ -335,6 +339,7 @@ margin-bottom: 18px;
 .projects-intro h2 span {
   display: inline-block;
   border: 1px solid #fff;
+  text-decoration: none;
   padding: 2px 8px;
 }
 
@@ -386,6 +391,7 @@ margin: 90px auto;
   /* padding-left: 56px; */
 }
 .Services span {
+text-decoration: none;
   display: inline-block;
   border: 1px solid rgb(228, 243, 248);;
   background: rgb(228, 243, 248);;
@@ -840,6 +846,14 @@ span {
 
   .p {
     font-size: 16px;
+  }
+}
+
+@media (max-width:600px) {
+  .why-choose {
+    flex-direction: column;
+    align-items: center;
+    
   }
 }
 @media (max-width: 600px) {
