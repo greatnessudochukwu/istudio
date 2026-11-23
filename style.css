@@ -1,4 +1,4 @@
-  * {
+* {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -12,8 +12,18 @@ body {
   color: #173b67;
   background-color: #fff;
 }
+
+
 /* ---------- Nav bar --------- */
 
+.menu-toggle {
+  display: none;
+  font-size: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: black;
+}
 
 nav {
   height: 105px;
@@ -57,8 +67,14 @@ ul a:hover {
   color: #1595c0;
 }
 
+nav li span {
+  color: #00aaff;
+  text-decoration: none;
+}
+
+
 .hero {
-  min-height:70vh; 
+  min-height: 70vh;
   display: flex;
   align-items: center;
   padding: 40px 8%;
@@ -66,7 +82,7 @@ ul a:hover {
   background: #eef8fc;
 }
 
-.hero-text {
+.hero-text  {
   flex: 1;
   /* background: lightblue; */
 }
@@ -143,40 +159,39 @@ ul a:hover {
   border: none;
 }
 
-
 /* --------- second section --- */
 
-
 .container {
-    display: flex;
-    /* margin-top: 800px; */
+  display: flex;
+  /* margin-top: 800px; */
 }
-
 
 .fleex {
   background: #eef8fc;
-    display: flex;
+  display: flex;
   color: #0d4c70;
   /* margin-left: 54px; */
   gap: 30px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  /* margin-left: 78px; */
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* margin-bottom: 21px; */
 }
 
 .fleex h1 {
   margin-left: 54px;
-    padding: 40px;
-font-size: 22px;
+  padding: 40px;
+  font-size: 22px;
 }
 
 /* ------- CONTAINER -------- */
-
 
 .container {
   background-color: #fff;
 }
 
 .About {
+   /* background: linear-gradient(135deg, #0a0a0a, #0f172a, #111827); */
   display: flex;
   align-items: center;
   gap: 40px;
@@ -215,14 +230,18 @@ font-size: 22px;
   color: #045068;
   background: lightblue;
   border: #1497c1;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.about-text p{
+.about-text p {
   /* margin-bottom: 55px; */
   color: #777;
   line-height: 1.7;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .features {
@@ -248,10 +267,10 @@ font-size: 22px;
 }
 
 .history-bottom button {
-border: 1px solid #1687b8;
-padding: 6px 7px;
-background: #1687b8;
-color: #fff;
+  border: 1px solid #1687b8;
+  padding: 6px 7px;
+  background: #1687b8;
+  color: #fff;
 }
 
 .socials {
@@ -272,7 +291,7 @@ color: #fff;
 
 .why-choose {
   background-color: #fff;
-    text-align: center;
+  text-align: center;
   align-items: center;
   margin-top: 90px;
 }
@@ -285,10 +304,10 @@ color: #fff;
 }
 
 .choose-heading span {
-color: #4d789c;
-font-weight: 500;
-background: lightblue;
-text-decoration: none;
+  color: #4d789c;
+  font-weight: 500;
+  background: lightblue;
+  text-decoration: none;
 }
 
 .choose-container {
@@ -297,17 +316,9 @@ text-decoration: none;
   gap: 70px 35px;
 }
 
-
-
-/* .choose-box  i {
-font-size: 42px;
-color: #4d789c;
-margin-bottom: 18px;
-} */
-
-.choose-container h4  {
+.choose-container h4 {
   font-size: 17px;
-  color: #555;
+  color: #000;
   margin-bottom: 10px;
   font-weight: 500;
 }
@@ -315,7 +326,7 @@ margin-bottom: 18px;
 .choose-container p {
   font-size: 12px;
   line-height: 1.7;
-  color: #777;
+  color: #000;
   max-width: 280px;
   margin: auto;
 }
@@ -344,7 +355,7 @@ margin-bottom: 18px;
 }
 
 .projects-intro strong {
-  font-size: 60px;
+  font-size: 90px;
 }
 
 .Projects-grid {
@@ -354,21 +365,21 @@ margin-bottom: 18px;
 
 .projects-card {
   height: 200px;
-  background-size:cover ;
+  background-size: cover;
   background-position: center;
   color: #fff;
   padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  box-shadow: inset 0 0 0 100vmax rgba(14, 60, 100, alpha);
+  /* box-shadow: inset 0 0 0 100vmax rgba(14, 60, 100, alpha); */
 }
 
 .creative {
-display: flex;
-grid-template-columns: 35% 65%;
-max-width: 1100px;
-margin: 90px auto;
+  display: flex;
+  grid-template-columns: 35% 65%;
+  max-width: 1100px;
+  margin: 90px auto;
 }
 
 .Services {
@@ -377,7 +388,7 @@ margin: 90px auto;
   flex-direction: column;
   justify-content: center;
   /* margin: auto; */
-  font-family: 'Courier New',;
+  font-family: "Courier New";
   font-size: 14px;
   /* margin-left: 79px; */
   /* padding-left: 99px; */
@@ -391,20 +402,14 @@ margin: 90px auto;
   /* padding-left: 56px; */
 }
 .Services span {
-text-decoration: none;
+  text-decoration: none;
   display: inline-block;
-  border: 1px solid rgb(228, 243, 248);;
-  background: rgb(228, 243, 248);;
+  border: 1px solid rgb(228, 243, 248);
+  background: rgb(228, 243, 248);
   color: #4d789c;
   padding: 2px 8px;
-  /* margin-top: 56px; */
-  
 }
 
-/* .num {
-  margin-top: 32px;
-  margin-left: 32px;
-} */
 
 .blank {
   background: #045068;
@@ -412,22 +417,19 @@ text-decoration: none;
 }
 .Services small {
   font-size: 3px;
-  /* color: red; */
+
 }
 
 .creative-image {
   display: grid;
-  /* grid-template-columns:2, 1fr ; */
+ 
   width: 90%;
-  /* transition: transform 0.3s ease; */
-  grid-template-columns: repeat(2, 1fr) ;
-  /* height: 200%; */
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .creative-card {
   height: 250px;
-  /* width: 100; */
-  /* margin-right: 67px; */
+ 
   background-size: cover;
   background-position: center;
   display: flex;
@@ -437,11 +439,9 @@ text-decoration: none;
   justify-content: flex-end;
 }
 
-
-
 .num {
   display: flex;
-  /* grid-template-columns: 35% 65%; */
+ 
   max-width: 1100px;
   margin: 20px auto;
 }
@@ -451,23 +451,18 @@ text-decoration: none;
   color: #fff;
   padding: 30px 30px;
   display: flex;
-  /* flex-direction: column; */
-  /* justify-content: center; */
 }
 
 .num-write {
-  background:rgb(228, 243, 248);
+  background: rgb(228, 243, 248);
   padding-top: 9px;
   padding-bottom: 9px;
-  padding-right:5px ;
-  border: 1px solid rgb(228, 243, 248); ;
-  /* display: grid; */
-  /* grid-template-columns: repeat(3, 1fr); */
+  padding-right: 5px;
+  border: 1px solid rgb(228, 243, 248);
   padding-left: 21px;
 }
 
 .num-write a {
-  /* padding-top: 7px; */
   color: darkblue;
   text-decoration: none;
   font-size: 18px;
@@ -480,23 +475,21 @@ text-decoration: none;
 }
 
 .team h1 {
-color: #34495e;
-font-size: 35px;
-margin-top: 34px;
-/* margin-bottom: 25px; */
-padding-bottom: 90px;
-margin-left: 49px;
+  color: #34495e;
+  font-size: 35px;
+  margin-top: 34px;
+
+  padding-bottom: 90px;
+  margin-left: 49px;
 }
 
 .team span {
   color: #1687b8;
-  /* margin-bottom: 21px; */
+  text-decoration: none;
 }
 
 .team-container {
   display: flex;
-  /* gap: 9px; */
-  /* flex-wrap: wrap; */
   justify-content: center;
 }
 
@@ -508,12 +501,11 @@ margin-left: 49px;
   overflow: hidden;
 }
 
-.men-card img{
+.men-card img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
-  /* overflow: hidden; */
   transition: transform 0.4s ease;
 }
 
@@ -521,14 +513,13 @@ margin-left: 49px;
   transform: scale(1.2);
 }
 .men-card::after {
-  /* content: ; */
   position: absolute;
   inset: 0;
   background: linear-gradient(transparent 30%, rgba(0, 20, 60, 0.9));
 }
 
 .team-info {
-  position:absolute;
+  position: absolute;
   bottom: 15px;
   left: 12px;
   z-index: 1;
@@ -549,8 +540,8 @@ margin-left: 49px;
 }
 
 .social-icons {
-display: flex;
-gap: 5px;
+  display: flex;
+  gap: 5px;
 }
 
 .social-icons a {
@@ -566,9 +557,7 @@ gap: 5px;
   font-size: 12px;
 }
 
-
 .testimonal-section {
-  min-height: 88vh;
   width: 100%;
   padding: 60px 8%;
   background: #fff;
@@ -586,7 +575,7 @@ gap: 5px;
   gap: 40px;
 }
 
-.test-image {
+.test-image  {
   position: relative;
   /* width: 50%; */
   margin-left: 35px;
@@ -594,7 +583,6 @@ gap: 5px;
   height: 240px;
   display: flex;
   align-items: center;
-  /* justify-content: center; */
 }
 
 .black-box {
@@ -611,10 +599,9 @@ gap: 5px;
   z-index: 1;
   width: 280px;
   height: 160px;
+  max-width: 1900px;
   object-fit: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  /* margin-left: 65px; */
   left: 45px;
   top: 45px;
   z-index: 10px;
@@ -627,17 +614,17 @@ gap: 5px;
 }
 
 .test-cont h2 {
-  font-size: 25px;
+  font-size: 45px;
   font-weight: 400;
   color: #555;
-  margin:0 0 10px;
+  margin: 0 0 10px;
 }
 
 .test-cont p {
-  font-size: 13px;
+  font-size: 19px;
   line-height: 1.6;
   color: #777;
-  margin:0 0 15px;
+  margin: 0 0 15px;
 }
 
 .test-auth {
@@ -647,13 +634,13 @@ gap: 5px;
 }
 
 .testimonal-author h4 {
-  font-size:13px;
+  font-size: 29px;
   font-weight: 400px;
   color: #555;
   margin: 0;
 }
 
-.test-dots{
+.test-dots {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -677,7 +664,6 @@ gap: 5px;
 
 .sect-news {
   background: #eef8fc;
-  /* min-height: 50vh; */
 }
 
 .cont-news {
@@ -685,11 +671,11 @@ gap: 5px;
   gap: 60px;
 }
 
-.news  img {
-height: 400px;
-width: 610px;
-object-fit: cover;
-background-position: center;
+.news img {
+  height: 400px;
+  width: 610px;
+  object-fit: cover;
+  background-position: center;
 }
 
 .letter-cont {
@@ -698,18 +684,19 @@ background-position: center;
 
 .letter-cont h1 {
   font-size: 41px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .letter-cont span {
-  background: white;
+  background: #fff;
+  text-decoration: none;
   color: #173b67;
 }
 
 .form-news input {
   margin-top: 31px;
-padding: 18px 180px;
-border: none;
+  padding: 18px 180px;
+  border: none;
 }
 
 .form-news p {
@@ -717,64 +704,47 @@ border: none;
   font-size: 12px;
 }
 
+
 .istudio-end {
-  /* display: flex; */
+  width: 100%;
+  padding: 40px 20px;
+  box-sizing: border-box;
   background-color: rgb(1, 1, 29);
 }
 
 .istudio {
-  /* min-height: 100vh; */
-  padding: 96px 89px;
-  /* margin-left:90px; */
   display: flex;
-  gap: 29px;
-color: red;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.istudio h1  {
+.istudio-com {
   color: whitesmoke;
-  padding-bottom: 21px;
-  font-family: 'Times New Roman', Times, serif;
+  flex: 1 1 200px;
+  min-width: 0;
 }
 
 .istudio h3 {
-  padding-top: 15px;
-  padding-left: 110px;
-  color: whitesmoke;
-  padding-bottom: 21px;
+  padding-bottom: 12px;
 }
 
-.istudio p {
-  line-height: 1.6;
-color: gray;
+.istudio-com li {
+  overflow-wrap: anywhere;
+  margin-bottom: 10px;
 }
 
-.istudio li {
-  line-height: 1.6;
-  padding-left: 110px;
-  color: gray;
-}
-
-.soc {
-  padding-left: 110px;
-  padding-top: 16px;
-  /* border: 1px solid gray; */
+.istudio-com p {
+  line-height: 1.5;
 }
 
 .soc a {
-  width: 34px;
-  border: 1px solid gray;
-  padding: 0;
-  display: inline-flex;
-  justify-content: center;
-  box-sizing: border-box;
-  text-decoration: none;
-  color: gray;
+padding: 1px;
+text-decoration: none;
 }
-
-
 .footer {
-  /* background: #062b4a; */
   color: white;
   padding: 20px 8px 15px;
 }
@@ -813,57 +783,1180 @@ span {
   text-decoration: underline;
 }
 
-@media (max-width: 768px) {
-  nav {
-    flex-direction: column;
-    gap: 20px;
-  }
 
-  li {
-    flex-direction: column;
-    gap: 15px;
-  }
+css
+/* ==========================================
+   RESPONSIVE DESIGN FOR iSTUDIO WEBSITE
+   Mobile phones, tablets and small laptops
+========================================== */
+
+/* Prevent horizontal scrolling */
+html {
+    scroll-behavior: smooth;
+    overflow-x: clip;
 }
 
-@media (max-width: 768px) {
-  .hero {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .hero-text,
-  .hero-image {
+body {
     width: 100%;
-  }
-
-  .hero-image{
-    margin-top: 30px;
-  }
-
-  .h1 {
-    font-size: 36px;
-  }
-
-  .p {
-    font-size: 16px;
-  }
+    max-width: 100%;
+    overflow-x: clip;
 }
 
-@media (max-width:600px) {
-  .why-choose {
-    flex-direction: column;
-    align-items: center;
-    
-  }
+img {
+    max-width: 100%;
+    height: auto;
 }
-@media (max-width: 600px) {
-  .footer-bottom {
-    flex-direction: column;
-    align-items: flex-start;
-  }
 
-  .footer-links {
-    gap: 15px;
-    flex-wrap: wrap;
-  }
+section {
+    max-width: 100%;
+}
+
+/* ==========================================
+   TABLETS AND SMALL LAPTOPS
+========================================== */
+
+@media screen and (max-width: 1024px) {
+
+    /* Navigation */
+    nav {
+        padding: 0 4%;
+    }
+
+    nav h2 {
+        font-size: 30px;
+    }
+
+    nav ul {
+        gap: 18px;
+    }
+
+    nav ul a {
+        font-size: 14px;
+    }
+
+    /* Hero section */
+    .hero {
+        padding: 40px 5%;
+        gap: 25px;
+    }
+
+    .hero-text h1 {
+        font-size: 55px;
+    }
+
+    .hero-image {
+        width: 45%;
+        max-width: 450px;
+    }
+
+    .hero-image img {
+        width: 85%;
+        height: 280px;
+        margin-right: 30px;
+    }
+
+    .blue-box {
+        width: 65%;
+        height: 350px;
+    }
+
+    /* Feature section */
+    .fleex {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+        padding: 20px;
+    }
+
+    .fleex h1 {
+        margin-left: 0;
+        padding: 20px;
+        font-size: 19px;
+    }
+
+    /* About section */
+    .About {
+        margin: 50px 25px 0;
+        gap: 25px;
+    }
+
+    .about-image {
+        width: 45%;
+    }
+
+    .about-image img {
+        height: 300px;
+        min-width: 0;
+    }
+
+    .about-text {
+        padding-left: 10px;
+    }
+
+    .features {
+        gap: 25px;
+    }
+
+    /* Why choose us */
+    .why-choose {
+        padding: 0 25px;
+    }
+
+    .choose-container {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 40px 20px;
+    }
+
+    /* Projects */
+    .Projects {
+        grid-template-columns: 30% 70%;
+        width: calc(100% - 40px);
+        margin: 70px auto;
+    }
+
+    .Projects-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .projects-card {
+        min-width: 0;
+    }
+
+    /* Services */
+    .creative {
+        padding: 0 20px;
+        gap: 20px;
+    }
+
+    .Services {
+        min-width: 0;
+        padding: 30px 10px;
+        flex: 1;
+    }
+
+    .creative-image {
+        flex: 1;
+        min-width: 0;
+        width: auto;
+    }
+
+    .creative-card {
+        min-width: 0;
+    }
+
+    /* Team */
+    .team {
+        padding: 35px 20px;
+    }
+
+    .team h1 {
+        margin-left: 0;
+        padding-bottom: 45px;
+        text-align: center;
+    }
+
+    .team-container {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 25px;
+        max-width: 650px;
+        margin: auto;
+    }
+
+    .men-card {
+        width: 100%;
+        max-width: 300px;
+        height: 300px;
+        margin-left: 0;
+        justify-self: center;
+    }
+
+    /* Testimonials */
+    .testimonal-section {
+        padding: 40px 5%;
+    }
+
+    .sect-cont {
+        margin: 0 auto;
+        gap: 30px;
+    }
+
+    .test-image {
+        margin-left: 0;
+    }
+
+    .test-cont h2 {
+        font-size: 35px;
+    }
+
+    .test-cont p {
+        font-size: 16px;
+    }
+
+    /* Newsletter */
+    .cont-news {
+        gap: 25px;
+    }
+
+    .news {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .news img {
+        width: 100%;
+        height: 350px;
+    }
+
+    .letter-cont {
+        flex: 1;
+        min-width: 0;
+        padding: 35px 15px;
+    }
+
+    .letter-cont h1 {
+        font-size: 32px;
+    }
+
+    .form-news input {
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+
+/* ==========================================
+   MOBILE PHONES
+========================================== */
+
+@media screen and (max-width: 768px) {
+
+    /* General spacing */
+    body {
+        font-size: 14px;
+    }
+
+    /* --------------------------------------
+       NAVIGATION
+    -------------------------------------- */
+
+    nav {
+        min-height: 75px;
+        height: auto;
+        padding: 18px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    nav h2 {
+        font-size: 29px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px 18px;
+        width: 100%;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    nav ul a {
+        font-size: 14px;
+    }
+
+    /* --------------------------------------
+       HERO SECTION
+    -------------------------------------- */
+
+    .hero {
+        min-height: auto;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 30px;
+        padding: 45px 20px;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .hero-text h1 {
+        font-size: clamp(40px, 10vw, 58px);
+        line-height: 1.12;
+    }
+
+    .hero-text p {
+        margin-top: 20px;
+        padding: 12px 15px;
+        font-size: 15px;
+        max-width: 100%;
+    }
+
+    .hero-image {
+        width: 100%;
+        max-width: 480px;
+        height: 300px;
+        margin: 0 auto;
+    }
+
+    .hero-image img {
+        width: 85%;
+        height: 230px;
+        margin-right: 25px;
+        object-fit: cover;
+    }
+
+    .blue-box {
+        width: 65%;
+        height: 280px;
+        right: 0;
+    }
+
+    .side-icons {
+        right: 10px;
+        top: 120px;
+    }
+
+    /* --------------------------------------
+       FEATURE SECTION
+    -------------------------------------- */
+
+    .fleex {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+        padding: 20px 15px;
+    }
+
+    .fleex h1 {
+        margin: 0;
+        padding: 15px 8px;
+        font-size: 15px;
+        line-height: 1.5;
+        overflow-wrap: anywhere;
+    }
+
+    /* --------------------------------------
+       ABOUT SECTION
+    -------------------------------------- */
+
+    .container {
+        display: block;
+        width: 100%;
+    }
+
+    .About {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 25px;
+        margin: 40px 20px;
+    }
+
+    .about-image {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .about-image img {
+        width: calc(50% - 5px);
+        height: 230px;
+        min-width: 0;
+        object-fit: cover;
+    }
+
+    .about-text {
+        width: 100%;
+        padding: 0 0 20px;
+    }
+
+    .about-text h1 {
+        font-size: 27px;
+        line-height: 1.4;
+        margin-bottom: 20px;
+    }
+
+    .about-text span {
+        display: inline-block;
+        font-size: 17px;
+        padding: 3px 8px;
+    }
+
+    .about-text p {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .features {
+        gap: 25px;
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+
+    .features p {
+        font-size: 13px;
+    }
+
+    .history-bottom {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .history-bottom button {
+        padding: 12px 20px;
+        cursor: pointer;
+    }
+
+    /* --------------------------------------
+       WHY CHOOSE US
+    -------------------------------------- */
+
+    .why-choose {
+        margin-top: 55px;
+        padding: 0 20px;
+    }
+
+    .choose-heading {
+        font-size: 23px;
+        line-height: 1.5;
+        margin-bottom: 35px;
+    }
+
+    .choose-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 35px 15px;
+    }
+
+    .choose-container > div {
+        min-width: 0;
+    }
+
+    .choose-container i {
+        font-size: 25px;
+        margin-bottom: 12px;
+    }
+
+    .choose-container h4 {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .choose-container p {
+        font-size: 12px;
+        line-height: 1.7;
+        overflow-wrap: anywhere;
+    }
+
+    /* --------------------------------------
+       PROJECTS SECTION
+    -------------------------------------- */
+
+    .Projects {
+        display: flex;
+        flex-direction: column;
+        width: calc(100% - 30px);
+        max-width: 600px;
+        margin: 55px auto;
+    }
+
+    .Projects-intro {
+        padding: 30px 20px;
+    }
+
+    .Projects-intro h2 {
+        font-size: 30px;
+        line-height: 1.4;
+    }
+
+    .Projects-intro p {
+        margin-top: 12px;
+        font-size: 15px;
+    }
+
+    .Projects-intro strong {
+        font-size: 50px;
+    }
+
+    .Projects-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .projects-card {
+        height: 190px;
+        min-width: 0;
+        padding: 12px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .projects-card h3 {
+        font-size: 16px;
+        overflow-wrap: anywhere;
+    }
+
+    .projects-card small {
+        font-size: 12px;
+    }
+
+    /* --------------------------------------
+       SERVICES SECTION
+    -------------------------------------- */
+
+    .creative {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 650px;
+        margin: 55px auto;
+        padding: 0 20px;
+        gap: 25px;
+    }
+
+    .Services {
+        width: 100%;
+        padding: 10px 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .Services h1 {
+        font-size: 31px;
+        line-height: 1.4;
+        margin-bottom: 20px;
+    }
+
+    .Services p {
+        font-size: 13px;
+        line-height: 1.8;
+        overflow-wrap: anywhere;
+    }
+
+    .num {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .blank {
+        flex: 0 0 25px;
+        padding: 15px;
+    }
+
+    .num-write {
+        flex: 1;
+        min-width: 0;
+        padding: 12px;
+        font-size: 12px;
+    }
+
+    .num-write a {
+        font-size: 16px;
+    }
+
+    .creative-image {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+    }
+
+    .creative-card {
+        height: 200px;
+        min-width: 0;
+        padding: 12px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .creative-card h1 {
+        font-size: 16px;
+        line-height: 1.4;
+        overflow-wrap: anywhere;
+    }
+
+    .creative-card small {
+        font-size: 11px;
+        line-height: 1.5;
+    }
+
+    /* --------------------------------------
+       TEAM SECTION
+    -------------------------------------- */
+
+    .team {
+        min-height: auto;
+        padding: 40px 20px;
+    }
+
+    .team h1 {
+        font-size: 27px;
+        line-height: 1.4;
+        margin: 0 0 35px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .team-container {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 15px;
+    }
+
+    .men-card {
+        width: 100%;
+        max-width: none;
+        height: 250px;
+        margin: 0;
+    }
+
+    .team-info {
+        left: 8px;
+        right: 5px;
+        bottom: 10px;
+    }
+
+    .team-info span {
+        font-size: 12px;
+        padding: 4px 6px;
+    }
+
+    .team-info h3 {
+        font-size: 13px;
+        line-height: 1.4;
+        overflow-wrap: anywhere;
+    }
+
+    .social-icons {
+        gap: 4px;
+        flex-wrap: wrap;
+    }
+
+    .social-icons a {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* --------------------------------------
+       TESTIMONIALS
+    -------------------------------------- */
+
+    .testimonal-section {
+        padding: 40px 20px;
+    }
+
+    .sect-cont {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 30px;
+        width: 100%;
+        padding-top: 15px;
+        margin: 0 auto;
+    }
+
+    .test-image {
+        width: 100%;
+        max-width: 350px;
+        height: 240px;
+        margin: 0 auto;
+    }
+
+    .black-box {
+        width: 70%;
+        height: 210px;
+        top: 0;
+        left: 0;
+    }
+
+    .test-image img {
+        width: 80%;
+        max-width: 280px;
+        height: 170px;
+        top: 30px;
+        left: 30px;
+        object-fit: cover;
+    }
+
+    .test-cont {
+        width: 100%;
+    }
+
+    .test-cont h2 {
+        font-size: 30px;
+        line-height: 1.4;
+    }
+
+    .test-cont p {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .test-auth {
+        flex-wrap: wrap;
+    }
+
+    .test-dots {
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+
+    /* --------------------------------------
+       NEWSLETTER
+    -------------------------------------- */
+
+    .cont-news {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .news {
+        width: 100%;
+    }
+
+    .news img {
+        display: block;
+        width: 100%;
+        height: 240px;
+        object-fit: cover;
+    }
+
+    .letter-cont {
+        width: 100%;
+        padding: 30px 20px;
+    }
+
+    .letter-cont h1 {
+        font-size: 29px;
+        line-height: 1.5;
+    }
+
+    .form-news {
+        width: 100%;
+    }
+
+    .form-news input {
+        display: block;
+        width: 100%;
+        min-width: 0;
+        margin-top: 20px;
+        padding: 15px;
+        font-size: 14px;
+        border: 1px solid #ddd;
+        outline-color: #1595c0;
+    }
+
+    .form-news p {
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+    /* --------------------------------------
+       FOOTER
+    -------------------------------------- */
+
+    .istudio-end {
+        padding: 35px 20px 20px;
+    }
+
+    .istudio {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 30px 20px;
+    }
+
+    .istudio-com {
+        width: 100%;
+        min-width: 0;
+        overflow-wrap: anywhere;
+    }
+
+    .istudio-com h3 {
+        font-size: 17px;
+        line-height: 1.5;
+    }
+
+    .istudio-com p,
+    .istudio-com li {
+        font-size: 12px;
+        line-height: 1.8;
+        overflow-wrap: anywhere;
+    }
+
+    .istudio-com li {
+        list-style: none;
+    }
+
+    .soc {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        margin-top: 12px;
+    }
+
+    .soc a {
+        color: white;
+        font-size: 14px;
+    }
+
+    .footer {
+        padding: 20px 0 0;
+    }
+
+    .footer-bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 18px;
+        padding-top: 20px;
+    }
+
+    .footer-bottom p {
+        font-size: 12px;
+        line-height: 1.8;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px 18px;
+    }
+
+    .footer-links a {
+        font-size: 12px;
+    }
+
+    /* --------------------------------------
+       SCROLL REVEAL ANIMATIONS
+    -------------------------------------- */
+
+    /* .reveal {
+        opacity: 1;
+        transform: none;
+    } */
+}
+
+
+/* ==========================================
+   SMALL MOBILE PHONES
+   480px and below
+========================================== */
+
+@media screen and (max-width: 480px) {
+
+    nav {
+        padding: 16px;
+    }
+
+    nav h2 {
+        font-size: 26px;
+    }
+
+    nav ul {
+        gap: 12px;
+    }
+
+    nav ul a {
+        font-size: 13px;
+    }
+
+    .hero {
+        padding: 35px 16px;
+    }
+
+    .hero-text h1 {
+        font-size: 42px;
+    }
+
+    .hero-text p {
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    .hero-image {
+        height: 240px;
+    }
+
+    .hero-image img {
+        height: 190px;
+        width: 85%;
+    }
+
+    .blue-box {
+        height: 220px;
+    }
+
+    .fleex {
+        padding: 15px 10px;
+        gap: 5px;
+    }
+
+    .fleex h1 {
+        font-size: 13px;
+        padding: 12px 5px;
+    }
+
+    .About {
+        margin: 30px 15px;
+    }
+
+    .about-image img {
+        height: 180px;
+    }
+
+    .about-text h1 {
+        font-size: 24px;
+    }
+
+    .features {
+        gap: 15px;
+    }
+
+    .choose-container {
+        gap: 30px 10px;
+    }
+
+    .choose-heading {
+        font-size: 20px;
+    }
+
+    .Projects-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .projects-card {
+        height: 155px;
+        padding: 9px;
+    }
+
+    .projects-card h3 {
+        font-size: 14px;
+    }
+
+    .creative-image {
+        gap: 8px;
+    }
+
+    .creative-card {
+        height: 170px;
+        padding: 9px;
+    }
+
+    .creative-card h1 {
+        font-size: 14px;
+    }
+
+    .creative-card small {
+        font-size: 10px;
+    }
+
+    .team {
+        padding: 35px 12px;
+    }
+
+    .team h1 {
+        font-size: 24px;
+    }
+
+    .team-container {
+        gap: 12px;
+    }
+
+    .men-card {
+        height: 210px;
+    }
+
+    .team-info h3 {
+        font-size: 12px;
+    }
+
+    .test-cont h2 {
+        font-size: 26px;
+    }
+
+    .news img {
+        height: 200px;
+    }
+
+    .letter-cont h1 {
+        font-size: 26px;
+    }
+
+    .istudio {
+        gap: 25px 12px;
+    }
+
+    .istudio-com h3 {
+        font-size: 15px;
+    }
+
+    .istudio-com p,
+    .istudio-com li {
+        font-size: 11px;
+    }
+}
+
+
+/* ==========================================
+   EXTRA SMALL PHONES
+   360px and below
+========================================== */
+
+@media screen and (max-width: 360px) {
+
+    nav ul {
+        gap: 10px;
+    }
+
+    nav ul a {
+        font-size: 12px;
+    }
+
+    .hero-text h1 {
+        font-size: 36px;
+    }
+
+    .fleex h1 {
+        font-size: 12px;
+    }
+
+    .choose-container {
+        grid-template-columns: 1fr;
+    }
+
+    .Projects-grid,
+    .creative-image {
+        grid-template-columns: 1fr;
+    }
+
+    .projects-card {
+        height: 210px;
+    }
+
+    .creative-card {
+        height: 220px;
+    }
+
+    .men-card {
+        height: 180px;
+    }
+
+    .istudio {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* ==========================================
+   ACCESSIBILITY
+========================================== */
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+css
+/* =====================================
+   SCROLL REVEAL ANIMATIONS
+===================================== */
+
+/* Initial state before an element appears */
+.reveal {
+    opacity: 0;
+    transform: translateY(50px);
+    transition:
+        opacity 0.8s ease,
+        transform 0.8s ease;
+    will-change: opacity, transform;
+}
+
+/* Reveal elements when they enter the screen */
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Slide in from the left */
+.reveal-left {
+    opacity: 0;
+    transform: translateX(-60px);
+    transition:
+        opacity 0.8s ease,
+        transform 0.8s ease;
+}
+
+.reveal-left.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Slide in from the right */
+.reveal-right {
+    opacity: 0;
+    transform: translateX(60px);
+    transition:
+        opacity 0.8s ease,
+        transform 0.8s ease;
+}
+
+.reveal-right.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Pop-up animation */
+.reveal-pop {
+    opacity: 0;
+    transform: scale(0.85);
+    transition:
+        opacity 0.7s ease,
+        transform 0.7s ease;
+}
+
+.reveal-pop.active {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+    .reveal,
+    .reveal-left,
+    .reveal-right,
+    .reveal-pop {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+}
+
+/* Staggered reveal animation delays */
+
+.Projects-grid .projects-card:nth-child(2),
+.team-container .men-card:nth-child(2),
+.creative-image .creative-card:nth-child(2) {
+    transition-delay: 0.15s;
+}
+
+.Projects-grid .projects-card:nth-child(3),
+.team-container .men-card:nth-child(3),
+.creative-image .creative-card:nth-child(3) {
+    transition-delay: 0.3s;
+}
+
+.Projects-grid .projects-card:nth-child(4),
+.team-container .men-card:nth-child(4),
+.creative-image .creative-card:nth-child(4) {
+    transition-delay: 0.45s;
 }
